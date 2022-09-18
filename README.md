@@ -6,6 +6,11 @@
 ## About
 In this project, we created a simple calculator using Svelte with Typescript. We also implemented some concepts such as Slots, Conditionals and Routes. See below to create a new Svelte project or run this project locally.
 
+<div align="center">
+<img width="70%" src="https://raw.githubusercontent.com/arturmedeiros/svelte-calculator-typescript/master/static/dev-1.png">
+<img width="25%" src="https://raw.githubusercontent.com/arturmedeiros/svelte-calculator-typescript/master/static/dev-2.png">
+</div>
+
 ## ✅ Requirements
 To use the project, you need to have some packages and starter packages on your computer.
 See the standard requirements by Node.JS.

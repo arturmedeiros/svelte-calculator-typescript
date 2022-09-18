@@ -16,7 +16,14 @@ let show = true
 
 <style>
     :global(body) {
+        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
         background-color: black;
+    }
+
+    :global(html) {
+        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+        padding: 0;
+        margin: 0;
     }
 
     :root {
@@ -28,5 +35,14 @@ let show = true
         justify-content: center;
         align-items: center;
         height: 100vh;
+    }
+
+    /* Responsive */
+    @media only screen and (max-width: 600px) {
+        :global(body) {
+            background-color: black;
+            padding: 0;
+            margin: 0;
+        }
     }
 </style>

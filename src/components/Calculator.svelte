@@ -60,4 +60,18 @@
         display: flex;
         flex-direction: column;
     }
+
+    /* Responsive */
+    @media only screen and (max-width: 600px) {
+        .calculator {
+            /*background-color: var(--bg-custom-color);*/
+            background-color: #000000;
+            height: 98vh;
+            width: 100vw;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
 </style>

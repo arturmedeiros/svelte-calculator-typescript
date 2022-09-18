@@ -18,6 +18,8 @@
         margin: 0;
         border: 1px solid var(--bg-custom-color);
         flex-basis: 25%;
+        color: black;
+        background-color: #b0b0b0;
     }
 
     .triple {
@@ -34,7 +36,33 @@
     }
 
     .feature {
-        background-color: red;
-        color: white;
+        background-color: white;
+        color: #000000;
+    }
+
+    /* Responsive */
+
+    @media only screen and (max-width: 600px) {
+        .btn {
+            font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+            font-size: 30px;
+            font-weight: 500;
+            border: 1px solid #000;
+            margin: 5px;
+            height: 11vh;
+            border-radius: 15px;
+            background-color: #b0b0b0;
+        }
+
+
+        .operation {
+            background-color: orange;
+            color: white;
+        }
+
+        .feature {
+            background-color: white;
+            color: #000000;
+        }
     }
 </style>
